@@ -36,6 +36,16 @@ export default function RootLayout() {
             ),
           }}
         />
+        <Drawer.Screen
+          name="tabs" 
+          options={{
+            drawerLabel: 'Tabs',
+            title: 'Tabs',
+            drawerIcon:() =>(
+              <Ionicons name="albums-outline" size={18} color='#3a98ff'/>
+            ),
+          }}
+        />
         </Drawer>
     </GestureHandlerRootView>
   );
