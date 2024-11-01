@@ -37,12 +37,32 @@ export default function RootLayout() {
           }}
         />
         <Drawer.Screen
+          name="formulario" 
+          options={{
+            drawerLabel: 'Formulário',
+            title: 'Formulário',
+            drawerIcon:() =>(
+              <Ionicons name="checkbox-outline" size={18} color='#3a98ff'/>
+            ),
+          }}
+        />
+        <Drawer.Screen
           name="tabs" 
           options={{
             drawerLabel: 'Tabs',
             title: 'Tabs',
             drawerIcon:() =>(
               <Ionicons name="albums-outline" size={18} color='#3a98ff'/>
+            ),
+          }}
+        />
+        <Drawer.Screen
+          name="stack" 
+          options={{
+            drawerLabel: 'Stack',
+            title: 'Stack',
+            drawerIcon:() =>(
+              <Ionicons name="logo-stackoverflow" size={18} color='#3a98ff'/>
             ),
           }}
         />
